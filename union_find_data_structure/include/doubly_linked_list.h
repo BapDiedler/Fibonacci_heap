@@ -3,10 +3,11 @@
 */
 
 #include <stdlib.h>
+#include "include/heap.h"
 
 typedef struct block
 {
-    /* data */
+    heap data;
 }* element, block;
 
 
@@ -20,12 +21,12 @@ typedef struct doubly_linked_list
 
 
 //initialisation de la liste doublement chaînée
-void init(dll* l);
+void init_dll(dll* l);
 //ajout d'un élément dans la liste en tête
-void add(dll l, element b);
+void add_dll(dll l, element b);
 //supprimer un élément de la liste
-void delt(dll l, element b);
+void delt_dll(dll l, element b);
 //afficher la liste
-void prt_list(dll l);
+void prt_dll(dll l);
 //libérer la mémoire de la liste
 void free_dll(dll l);

@@ -3,7 +3,7 @@
 */
 #include "include/doubly_linked_list.h"
 
-void init(dll* l){
+void init_dll(dll* l){
     *l=(dll)malloc(sizeof(doubly_linked_list));
     (*l)->b = NULL;
     (*l)->next = *l;
@@ -11,7 +11,7 @@ void init(dll* l){
 }
 
 
-void add(dll l, element b){
+void add_dll(dll l, element b){
     dll new;
     init(&new);
     new->b = b;
@@ -22,7 +22,7 @@ void add(dll l, element b){
 }
 
 
-void delt(dll l, element b){
+void delt_dll(dll l, element b){
     delt_bis(l, l, b);
 }
 
@@ -40,7 +40,7 @@ void delt_bis(dll start, dll l, element b){
 }
 
 
-void prt_list(dll l){
+void prt_dll(dll l){
     prt_bis(l, l);
     printf("\n");
 }

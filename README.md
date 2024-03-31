@@ -1,4 +1,13 @@
 # union_find_data_structure
+Le code va s'inspirer du cours de François Schwarzentruber. Vous trouverez son poly dans la documentation.
+[Lien](http://people.irisa.fr/Francois.Schwarzentruber/algo1/06tasfibonacci.pdf "lien")
+Implémentation.
+Liste doublement chaînée pour la liste des racines
+Pointeur vers la racine prioritaire
+Listes doublement chaînées pour les nœuds frères
+Chaque nœud a un pointeur vers le parent
+Dans chaque nœud x, on inscrit son degré d(x) dans x.deg
+Nombre d’éléments inscrit dans H.n
 ## 1. Création des listes doublement chaînée cyclique
 ```c
 //structure de la liste

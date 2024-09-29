@@ -1,4 +1,5 @@
 # union_find_data_structure
+Le projet n'est pas fini et ne le sera jamais car trop long ;)
 Le code va s'inspirer du cours de François Schwarzentruber. Vous trouverez son poly dans la documentation.
 [Lien](http://people.irisa.fr/Francois.Schwarzentruber/algo1/06tasfibonacci.pdf "lien")
 Implémentation.
